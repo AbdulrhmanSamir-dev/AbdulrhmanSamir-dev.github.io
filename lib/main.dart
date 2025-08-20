@@ -15,7 +15,7 @@ class PortfolioApp extends StatelessWidget {
       title: 'Abdulrhman Samir — Portfolio',
       theme: ThemeData(
         useMaterial3: true,
-        colorSchemeSeed: Colors.blue,
+        colorSchemeSeed: Colors.black,
       ),
       home: HomePage(),
     );

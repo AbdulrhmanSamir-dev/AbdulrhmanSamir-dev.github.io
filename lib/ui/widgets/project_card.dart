@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'dart:html' as html;
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import '../../data/projects.dart';
 import '../image_preview_screen.dart';
 
@@ -69,7 +68,7 @@ class ProjectCard extends StatelessWidget {
             ),
             const SizedBox(height: 8),
 
-            // Description (cap lines to avoid overflow)
+            // Description
             Text(
               project.description,
               maxLines: 3,
